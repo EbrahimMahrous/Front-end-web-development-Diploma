@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="css/all.css">
+    <title>Shopping Card</title>
+</head>
+<body>
+    
+    <!-- الشاشة الكبيرة ف حالة انك مكتبتهاش بتورث الشاشة الاصغر -->
+  <div class="container">
+    <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand mt-2 mt-lg-0" href="#"> <img src="img/adidas.jpg"  height="50"  alt=""/></a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Prices</a></li>
+      </ul>
+    </div>
+    <div class="d-flex align-items-center">
+      <a class="text-reset me-3" href="#"> <i class="fas fa-shopping-cart"></i> </a>
+      <div>
+        <a class="text-reset me-3" href="#"> <i class="fas fa-bell"></i> <span class="badge rounded-pill badge-notification bg-danger">+99</span></a>
+      </div>
+      <div class="dropdown">
+        <a class="d-flex align-items-center" href="#"> <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25" alt="" /></a>
+      </div>
+    </div>
+  </div>
+      </nav>
+
+        <div class="row py-4">
+            <div price="25" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Crew Neck T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                                      <p  class="card-text">$24.99</p>
+                  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+            <div price="13" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">V-Neck T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                  <p  class="card-text">$12.99</p>
+                  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+            <div price="50" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Polo T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                  <p  class="card-text">$49.99</p>
+                  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+            <div price="15" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Henley T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                                      <p  class="card-text">$14.99</p>
+                  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+        </div> <!-- /row -->
+
+        <div class="row py-4">
+            <div price="20" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Raglan Sleeve T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                        <p  class="card-text">$19.99</p>
+                        <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+            <div price="100" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Graphic T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                                      <p  class="card-text">$99.99</p>
+                  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+            <div price="30" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Pocket T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                                      <p  class="card-text">$29.99</p>
+                  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+            <div price="11" id="card" class="card col-12 col-md-6 col-lg-3">
+                <img class="card-img-top" src="img/1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Long Sleeve T-Shirt
+                  </h4>
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <div class="d-flex justify-content-between align-content-center">
+                                      <p  class="card-text">$10.99</p>
+                  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                </div>
+            </div> <!-- 1 -->
+        </div> <!-- /row -->
+
+    <!-- هعمل هنا ديف عشان اعرض فيها المنتجات اللي اليوز هيخترها -->
+    <div id="displayProductSelected" class=""></div>
+
+    <button id="btnShowTotalPrice" type="button" class="btn btn-primary m-4">Total Price</button>
+
+    <div id="btnTotalPrice" class="fs-1 text-primary"></div>
+
+
+
+  </div> <!-- /container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example24" class="form-control" />
+              <label class="form-label" for="form5Example24"></label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+          <h5 class="text-uppercase">Customer Service</h5>
+
+          <ul class="list-unstyled mb-0 text-start">
+            <li>
+              <a class="text-body" href="#!">Contact Us
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">FAQs
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Shipping Information
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Return Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+          <h5 class="text-uppercase">About Us</h5>
+
+          <ul class="list-unstyled mb-0 text-start">
+            <li>
+              <a class="text-body" href="#!">Our Story
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Careers
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Press</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Sustainability</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+          <h5 class="text-uppercase">Shop</h5>
+
+          <ul class="list-unstyled mb-0 text-start">
+            <li>
+              <a class="text-body" href="#!">New Arrivals
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Best Sellers
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Sale
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Gift Cards
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+          <h5 class="text-uppercase">Follow Us</h5>
+
+          <ul class="list-unstyled mb-0 text-start">
+            <li>
+              <a class="text-body" href="#!">Facebook
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Instagram
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Twitter
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Pinterest
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+     2020 © Copyright Ibrahim mahrous, All Rights Reversed
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>

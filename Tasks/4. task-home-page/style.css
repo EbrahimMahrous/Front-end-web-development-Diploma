@@ -1,0 +1,187 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap') */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 1400px;
+    /* background-color: rgba(0, 0, 0, 0.322); */
+    /* opacity: 0.5; */
+
+    background-image: url(img/7.jpg);
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.74); */
+    /* opacity: 0.1; */
+
+
+    font-family: "Alexandria", sans-serif;
+    font-weight: 200;
+}
+::selection{
+    background-color: rgba(0, 0, 0, 0.438);
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(238, 247, 247, 0.575);
+    /* border-bottom: 1px solid rgb(175, 175, 175); */
+    position: fixed;
+    /* opacity: 0.7; */
+    top: 0;
+    /* width: 99%; */
+
+    padding: 2px;
+}
+
+.logo{
+    height: 55px;
+    float: left;
+    margin-left: 200px;
+}
+
+.list{
+    list-style: none;
+    float: right;
+    margin-right: 200px;
+}
+
+.list li{
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 15px;
+    color: black;
+}
+.line1{
+    width: 50px;
+    height: 2px;
+    margin-top: 5px;
+    border-radius: 4px;
+    background-color: rgba(247, 81, 35, 0.87);
+}
+/* .line:hover{
+    width: 100px;
+} */
+
+
+
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.contactMe{
+    margin-left: 25px;
+    border: 1px solid rgba(247, 81, 35, 0.658);
+    border-radius: 15px;
+    padding: 4px 15px;
+    /* background-color: rgba(247, 81, 35, 0.678); */
+}
+.contactMe:hover{
+    background-color: rgba(247, 81, 35, 0.658);
+    color: white;
+    /* border: 0; */
+}
+
+/* Section */
+.section{
+    margin-top: 17%;
+    line-height: 120px;
+    /* position: fixed; */
+    
+    padding: 30px;
+
+    
+}
+.myName{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 15px;
+    color: white;
+
+    
+}
+.section h2{
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: -40px;
+    /* color: rgba(247, 81, 35, 0.637); */  
+}
+
+
+.span1{
+    color: rgb(247, 81, 35);
+}
+.span2{
+    color: rgba(247, 81, 35, 0.7);
+}
+.span3{
+    color: rgba(247, 81, 35, 0.6);
+}
+.span4{
+    color: rgba(247, 81, 35, 0.5);
+}
+.span5{
+    color: rgba(247, 81, 35, 0.4);
+}
+.span6{
+    color: rgba(247, 81, 35, 0.3);
+}
+
+.descriotionMe{
+    text-align: center;
+    line-height: 30px;
+    color: rgba(240, 248, 255, 0.76);
+    /* color: black; */
+    letter-spacing: 1px;
+   
+    font-weight: 300;
+    font-size: 15px;
+}
+u{
+    /* color: rgba(0, 0, 0, 0.603); */
+    /* background-color: rgba(247, 81, 35, 0.192); */
+    text-decoration: none;
+    font-size: 20px;
+    /* text-decoration: dashed; */
+} 
+
+
+.btnLeft{
+    width: 7%;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 42%;
+    padding: 5px;
+    background-color: rgba(247, 81, 35, 0.918);
+
+
+    
+}
+.btnLeft:hover{
+    background-color: rgba(247, 81, 35, 0.555);
+    color: white;
+}
+
+
+.btnRigth{
+    width: 7%;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 42%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.568);
+
+}
+
+.btnRigth:hover{
+    background-color: rgba(255, 255, 255, 0.76);
+}

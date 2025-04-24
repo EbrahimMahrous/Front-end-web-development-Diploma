@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+    
+}
+img{
+    width: 250px;
+
+}
+.TitleJobSocialMedia{
+   
+    border-radius: 10px;
+    width: 15%;
+    background-color: brown;
+    color: white;
+}
+a{
+    color: white;
+}
+
+input{
+    background-color: brown;
+}
+
+button{
+    padding: 5px;
+    width: 250px;
+    background-color: brown;
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    font-size: 30px;
+}
+
+ol{
+    background-color: brown;
+    width: 10%;
+    color: white;
+}
+
+.select select{
+    background-color: brown;
+    width: 15%;
+    color: white;
+}
+
+option{
+    border-radius: 10px;
+}

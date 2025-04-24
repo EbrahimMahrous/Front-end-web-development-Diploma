@@ -1,0 +1,182 @@
+
+header{
+    width: 80%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    color: rgba(255, 255, 255, 0.815);
+}
+header h2{
+    letter-spacing: 2px;
+    padding: 5px;
+    text-align: center;
+}
+audio{
+    width: 100px;
+   
+    visibility: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* position: relative; */
+     background-image: url(bitmap.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+
+}
+.container{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+section{
+    position: relative;
+}
+.overlay{
+    background-color: black;
+    
+}
+.one{
+    /* width: 90px;
+    height: 90px;
+    background-color: red;
+    border-radius: 50%; */
+    position: absolute;
+    left: 0;
+    top: 4px;
+
+    animation-name: one;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes one{
+    0%{
+
+    }
+    100%{
+        left: 80%;
+    }
+}
+.two{
+    /* width: 90px;
+    height: 90px;
+    background-color: brown;
+    border-radius: 50%; */
+    position: absolute;
+    right: 0;
+    top: 50px;
+
+    animation-name: two;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+@keyframes two{
+    0%{
+
+    }
+    100%{
+        right: 80%;
+    }
+}
+
+.three{
+    /* width: 90px;
+    height: 90px;
+    background-color: red;
+    border-radius: 50%; */
+    position: absolute;
+    left: 0;
+    top: 300px;
+
+    animation-name: three;
+    animation-delay: 8s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes three{
+    0%{
+
+    }
+    100%{
+        left: 75%;
+    }
+}
+.four{
+    /* width: 90px;
+    height: 90px;
+    background-color: brown;
+    border-radius: 50%; */
+    position: absolute;
+    right: 0;
+    top: 500px;
+
+    animation-name: four;
+    animation-duration: 4s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+@keyframes four{
+    0%{
+
+    }
+    100%{
+        right: 80%;
+    }
+}
+
+.five{
+    /* width: 90px;
+    height: 90px;
+    background-color: red;
+    border-radius: 50%; */
+    position: absolute;
+    left: 0;
+    top: 700px;
+
+    animation-name: five;
+    animation-delay: 16s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes five{
+    0%{
+
+    }
+    100%{
+        left: 80%;
+    }
+}
+
+.six{
+    /* width: 90px;
+    height: 90px;
+    background-color: brown;
+    border-radius: 50%; */
+    position: absolute;
+    right: 0;
+    top: 850px;
+
+    animation-name: six;
+    animation-duration: 4s;
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+@keyframes six{
+    0%{
+
+    }
+    100%{
+        right: 80%;
+    }
+}

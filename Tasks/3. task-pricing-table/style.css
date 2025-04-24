@@ -1,0 +1,126 @@
+.pricingTable{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 180px;
+    font-size: 40px;
+}
+.pricingTable:hover{
+    color: #6247d4ff;
+}
+.line{
+    display: block;
+    width: 40px;
+    margin: auto;
+    border-bottom: #6247d4ff solid 2px;
+    padding: 5px;
+}
+.line:hover{
+    width: 140px;
+}
+/* Left */
+.left{
+    width: 10%;
+    border: 0;
+    border-radius: 25px;
+    background-color: #f6f6f6ff;
+    color: #010101ff;
+
+    float: left;
+    text-align: center;
+    margin-left: 25.5%;
+
+    padding: 25px;
+
+    line-height: 30px;
+}
+.left:hover{
+    background-color: rgb(109, 83, 223);
+    color: #f6f6f6ff;
+}
+.btnLeft{
+    padding: 5px 15px;
+    color: #f6f6f6ff;
+    border: 0;
+    border-radius: 15px;
+    background-color: #6247d4ff;
+}
+.btnLeft:hover{
+    color: #010101ff;
+    background-color: #f6f6f6ff;
+}
+/* Center */
+.center{
+    width: 10%;
+    border: 0;
+    border-radius: 25px;
+    background-color: #6247d4ff;
+    color: #f6f6f6ff;
+
+    float: left;
+    text-align: center;
+    margin: 0px 3%;
+   
+    padding: 25px;
+    line-height: 30px;
+}
+.center:hover{
+    background-color: rgb(247, 246, 246);
+    color: #010101ff;
+}
+.btnCenter{
+    padding: 5px 15px;
+    color: #010101ff;
+    border: 0;
+    border-radius: 15px;
+    background-color: #f6f6f6ff;
+}
+.btnCenter:hover{
+    color: #f6f6f6ff;
+    background-color: #6247d4ff;
+}
+/* Right */
+.right{
+    width: 10%;
+    border: 0;
+    border-radius: 25px;
+    background-color: #f6f6f6ff;
+    color: #010101ff;
+
+    float: left;
+    text-align: center;
+    padding: 25px;
+    line-height: 30px;
+}
+.right:hover{
+    background-color: rgb(109, 83, 223);
+    color: #f6f6f6ff;
+}
+.btnRight{
+    padding: 5px 15px;
+    color: #f6f6f6ff;
+    border: 0;
+    border-radius: 15px;
+    background-color: #6247d4ff;
+}
+.btnRight:hover{
+    color: #010101ff;
+    background-color: #f6f6f6ff;
+}
+/* Circle */
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(138, 126, 192);
+    border-radius: 50%;
+
+    text-align: center;
+    margin: auto;
+    line-height: 1px;
+}
+.circle h2{
+    font-size: 50px;
+}
+.circle p{
+    font-size: 10px;
+}
+

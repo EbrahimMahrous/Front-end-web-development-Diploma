@@ -1,0 +1,78 @@
+body{
+    background-color: #fff;
+   
+}
+.coffee1{
+    background-color: #fffbf2;
+    width: 250px;
+    /* border: solid 1px rgb(204, 203, 203); */
+}
+.coffee1 h2{
+    color: #33211D;
+
+}
+.coffee1 p{
+    color: #DA9F5B;
+}
+.coffee1 a{
+    color: #33211D;
+}
+
+
+
+
+img{
+    width: 100px;
+    /* height: 50%; */
+    /* background-color: #f7f5f1; */
+}
+.img3{
+    width: 18%;
+    height: 18%;
+    background-color: #f7f5f1;
+}
+
+
+
+
+.title1{
+    color: #33211D;
+    background-color: #fffbf2;
+}
+.empty{
+    width: 100px;
+    height: 100px;
+    background-color: #fffbf2;
+}
+.empty:hover{
+    border-radius: 50%;
+}
+
+.coffee2{
+    background-color: #fffbf2;
+    width: 250px;
+}
+.coffee2 h2{
+    color: #33211D;
+}
+.coffee2 p{
+    color: #DA9F5B;
+}
+.coffee2 a{
+    color: #33211D;
+
+}
+
+.coffee3{
+    background-color: #fffbf2;
+}
+.coffee3 h2{
+    color: #33211D;
+}
+.coffee3 p{
+    color: #DA9F5B;
+}
+.coffee3 a{
+    color: #33211D;
+
+}
